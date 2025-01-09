@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            text-align: center;
+            margin: 20px 0;
+        }
+        header img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #ccc;
+            margin-top: 10px;
+        }
+        section {
+            width: 80%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 100%; /* Ensure images resize to fit the container */
+            max-width: 600px; /* Set a maximum width */
+            height: auto; /* Maintain aspect ratio */
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        .image-container p {
+            text-align: left;
+            margin: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <img src="1000017586.jpg" alt="this is my photo">
+        <p>This is a photo of mine! I live in rajamundry,famous for godavari river .</p>
+    </header>
+    <section>
+        <h2>Gallery</h2>
+        <p>Here is a small description about my city. Explore some of the amazing photos below.</p>
+
+        <div class="image-container">
+            <img src="Things-to-Do-in-Rajahmundry-Andhra-Pradesh.jpg" alt="godavari">
+            <p>Description: Stunning visuals of godavari, one of the most visited places in my city.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="temple.jpg" alt="Kailasagiri">
+            <p>Description: A photo of temple ,the most famous place in rajamundry.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="temple.jpg" alt="temple">
+            <p>Description: this is the one of the famous temple in my city it has a long culture and there are special pooja in every monday.</p>
+        </div>
+    </section>
+</body>
+</html>
